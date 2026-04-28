@@ -1,0 +1,83 @@
+body{
+    background-color:#123524;
+    color:#102114;
+    font-family:sans-serif;
+}
+
+header{
+    background-color:#2e8b57;
+    color:white;
+    padding:20px 0;
+    text-align:center;
+}
+
+header img{
+    border-radius:8px;
+    display:block;
+    margin:0 auto 16px auto;
+    max-width:100%;
+}
+
+#middleBar{
+    background-color:#123524;
+    color:white;
+    font-size:30px;
+    margin:0;
+    padding:12px;
+    text-align:center;
+}
+
+.bottomHalf{
+    background-color:white;
+    padding-bottom:24px;
+}
+
+#shots{
+    
+    text-align:center;
+
+}
+
+#matchstrategies{
+    text-align:center;
+}
+
+article img{
+    border-radius:8px;
+    display:block;
+    height:auto;
+    margin:16px auto;
+    max-width:100%;
+}
+
+.row{
+    align-items:stretch;
+    padding-top:24px;
+}
+
+.col-md-6{
+    background-color:#f3f8f1;
+    border:1px solid #c8dcc6;
+    border-radius:8px;
+    padding:16px;
+}
+
+footer{
+    padding:24px 0 32px 0;
+    text-align:center;
+}
+
+@media(max-width:600px){
+    body{
+        font-size:16px;
+    }
+
+    header img,
+    #matchstrategies img{
+        width:70% !important;
+    }
+
+    .row{
+        gap:16px;
+    }
+}
