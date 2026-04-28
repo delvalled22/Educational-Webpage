@@ -1,47 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Tennis Fundamentals</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header>
-            <!-- Metadata goes here. -->
+            <!-- This image introduces the homepage topic and gives the site an immediate tennis identity. -->
+            <img alt="Black tennis player silhouettes demonstrating several common stroke positions" src="./images/TennisSilhouettes.jpg" width="25%"/>
             <h1>Tennis Fundamentals</h1>
-            <img src="./images/TennisSilhouettes.jpg"
-                 alt="An assortment of tennis shots exampled by silhouettes"  
-                 width="25%"
-            />
         </header>
         <main>
-            <!-- Elements to show on page go here -->
-            <article>
-                <h2>Types of Tennis Shots</h2>
-                <section>
-                    <p>To be a complete tennis player, you need to master various types of shots.</p>
+            <article class="bottomHalf">
+                <!-- This section introduces the core shots that new tennis players should learn first. -->
+                <h2 id="middleBar">Core Tennis Shots</h2>
+                <section class="mx-4">                  
+                    <p id="shots">Tennis becomes much easier to understand when you see each shot as a tool with a specific purpose during a rally.</p>
                     <ol>
-                        <li>Forehand - hit on the same side as your dominant hand</li>
-                        <li>Backhand - hit on the opposite side of your dominant hand</li>
-                        <li>Serve - the initial shot that starts each point</li>
-                        <li>Volley - hit the ball before it bounces</li>
-                        <li>Drop Shot - a soft shot that lands close to the net</li>
-                        <li>Lob - a high shot hit over the opponent's head</li>
-                        <li>Smash - a powerful overhead shot hit when the ball is high in the air</li>
+                        <li>The forehand is usually a player's most natural attacking shot because it is hit on the dominant-hand side.</li>
+                        <li>The backhand covers the opposite side and helps players stay balanced when rallies move away from the forehand wing.</li>
+                        <li>The serve starts every point, so it is both a technical stroke and a strategic opportunity to control the rally immediately.</li>
+                        <li>The volley is struck before the ball bounces and is most effective when a player moves forward to shorten the opponent's reaction time.</li>
+                        <li>The slice stays low and slows the point down, which can disrupt rhythm and force awkward contact.</li>
+                        <li>The drop shot lands softly near the net and works best when an opponent is positioned deep behind the baseline.</li>
+                        <li>The lob sends the ball high over an opponent and is especially useful when defending against a net approach.</li>
                     </ol>
                 </section>
-                <section>
-                    <p>In addition to your tennis shots, there are numerous <a href="./page2.html">tennis strategies</a> to master.</p>
-                    <img src="./images/TennisStrategies.jpg" 
-                         alt="Tennis strategies example illustrated"
-                         width="25%"
-                    />
-                    <p>Tennis strategies can significantly impact your success on the court, and helps you adapt to different playing styles and situations.</p>
+                <section id="matchstrategies">
+                    <!-- This section connects the homepage to the second page and explains why strategy matters. -->
+                    <p>In addition to stroke technique, there are important <a href="./page2.html">match strategies and court patterns</a> that help players decide when to attack, defend, or change pace.</p>
+                    <img src="./images/TennisStrategies.jpg" alt="Illustration representing tactical tennis decision-making during a point" width="50%">
+                    <p>Good strategy links shots together into a plan. A player who understands spacing, timing, and opponent tendencies can win more points even without hitting the hardest ball on the court.</p>
                 </section>
             </article>
             <footer>
                 <nav>
-                    <p><a href="page2.html">Read more about tennis strategies on Page 2</a></p>
-                    <h4>To learn more about the different types of tennis shots, visit the links below:</h4>
-                    <p><a href="https://racketedge.com/types-of-tennis-shots/">Tennis Shots in more detail</a></p>
+                    <!-- This button keeps the homepage navigation format consistent with the project template. -->
+                    <p><a href="./index.html" class="btn btn-secondary">Return to tennis fundamentals</a></p>
                 </nav>
             </footer>
         </main>
